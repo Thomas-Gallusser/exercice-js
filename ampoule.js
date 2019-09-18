@@ -1,5 +1,3 @@
-// var status = 0;
-
 // function changeStatus() {
 //   if (!status) {
 //     status = 1;
@@ -18,9 +16,9 @@ var monBtn = document.getElementById('btn');
 function changeStatus() {
   if (monImage.src == "https://www.w3schools.com/js/pic_bulboff.gif") {
     monBtn.innerText = "Turn off";
-    monBtn.src='https://www.w3schools.com/js/pic_bulbon.gif'
+    monImage.src='https://www.w3schools.com/js/pic_bulbon.gif';
   } else {
     monBtn.innerText = "Turn on";
-    monBtn.src='https://www.w3schools.com/js/pic_bulboff.gif'
+    monImage.src='https://www.w3schools.com/js/pic_bulboff.gif';
   }
 }
